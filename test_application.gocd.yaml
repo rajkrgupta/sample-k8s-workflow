@@ -1,6 +1,7 @@
 format_version: 3
 pipelines:
   test_application:
+    group: gocd-demo-test
     label_template: ${COUNT}
     lock_behavior: unlockWhenFinished
     display_order: 2
